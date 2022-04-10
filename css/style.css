@@ -72,7 +72,7 @@ hr {
 }
 /* Navigation */
 #menu {
-  padding: 15px;
+  padding: 8px;
   transition: all 0.8s;
 }
 #menu.navbar-default {
@@ -90,12 +90,12 @@ hr {
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: rgb(180, 21, 21);
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
   border-radius: 0;
-  margin: 9px 20px 0;
+  margin: 30px 20px 0;  
 }
 #menu.navbar-default .navbar-nav > li > a:after {
   display: block;
@@ -141,7 +141,7 @@ hr {
   background-color: #608dfd;
 }
 .section-title {
-  margin-bottom: 70px;
+  margin-bottom: 80px;
 }
 .section-title h2 {
   position: relative;
@@ -208,7 +208,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/into/1.avif) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -226,11 +226,14 @@ a:focus,
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
+  animation-direction: alternate;
+  
 }
 .intro h1 span {
   font-weight: 800;
   color: #5ca9fb;
 }
+/* into para */
 .intro p {
   color: #fff;
   font-size: 22px;
@@ -239,10 +242,13 @@ a:focus,
   margin: 0 auto;
   margin-bottom: 60px;
 }
+
+/* learn */
 header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
   text-align: center;
+  
 }
 /* Features Section */
 #features {
